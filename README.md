@@ -7,25 +7,26 @@ This project implements a content-based music recommendation system using the Sp
 Spotify API Credentials
 To access the Spotify API, you need to have Spotify API credentials. Set up your SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, and SPOTIPY_REDIRECT_URI as shown below:
 
-    ```bash
+```bash
     SPOTIPY_CLIENT_ID = 'your_client_id'
     SPOTIPY_CLIENT_SECRET = 'your_client_secret'
     SPOTIPY_REDIRECT_URI = 'http://localhost:8888/callback'
-    ```
+```
 Replace 'your_client_id' and 'your_client_secret' with your actual Spotify API credentials
 
 # Example Usage
 
-    ```bash
+ ```bash
     recommended_songs = recommend_songs([{'name': 'Videotape', 'year': 2007},
                                      {'name': 'Smells Like Teen Spirit', 'year': 1991},
                                      {'name': 'Wind Of Change', 'year': 1990},
                                      {'name': 'O Children', 'year': 2004},
                                      {'name': 'Do I Wanna Know?', 'year': 2013}], spotify_df)
 
-    ```
+ ```
     
 Output:
+
 ![image](https://github.com/user-attachments/assets/4ed3dd78-0539-4936-ab49-cfc7596809d2)
 
 
